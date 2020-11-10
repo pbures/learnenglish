@@ -2,7 +2,7 @@ from optparse import OptionParser
 from gtts import gTTS
 from playsound import playsound
 import random
-import os.path
+import os
 import sys
 from signal import signal, SIGINT
 from sys import exit
@@ -14,6 +14,9 @@ def say_word(word):
     # if not os.path.isfile(filename): 
     #     tts = gTTS(word)
     #     tts.save(filename)
+
+    if not os.path.exists("mp3"):
+        os.makedirs("mp3")
 
     if not os.path.isfile(filename):
         url = f"https://translate.google.com/translate_tts?ie=UTF-8&q={word}&tl=en&ttsspeed=1&total=1&idx=0&client=tw-ob"
