@@ -1,5 +1,4 @@
 from optparse import OptionParser
-from gtts import gTTS
 from playsound import playsound
 import random
 import os
@@ -10,10 +9,6 @@ import requests
 
 def say_word(word):
     filename = ("mp3/%s.mp3") % word.replace("?","_").replace("!","_")
-
-    # if not os.path.isfile(filename): 
-    #     tts = gTTS(word)
-    #     tts.save(filename)
 
     if not os.path.exists("mp3"):
         os.makedirs("mp3")
