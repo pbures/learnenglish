@@ -1,9 +1,14 @@
 # learnenglish
-This is a growing simple english vocabulary teaching tool
+This is a growing simple english vocabulary teaching tool.
 
-To run the program (on Windows) you need to have python3 installed.
-To run the script simly do
+To run the program you need to have python3 installed.
 
+Before the first run, install dependencies by
 ```
-python.exe main.py
+pip install -r requirements.txt
+```
+
+To know how to run the script, simply ask for help by
+```
+python.exe main.py -h
 ```
