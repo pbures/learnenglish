@@ -5,5 +5,5 @@ To run the program (on Windows) you need to have python3 installed.
 To run the script simly do
 
 ```
-python.exe .\anglictina.py
+python.exe main.py
 ```
