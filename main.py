@@ -312,7 +312,34 @@ lekce_adam4f = Lekce("Skola domaci vyucovani fráze 2",
     }
 )
 
-lekce = [ lekce_kaja1, lekce_adam1, lekce_adam2, lekce_adam3, lekce_artem1, lekce_adam4s, lekce_adam4f]
+lekce_adam3s = Lekce("Skola Lekce 3",
+    {
+        'kola':'cola',
+        'studený':'cold',
+        'doktor':'doctor',
+        'ne':'no',
+        'pít':'drink',
+        'nápoj':'drink',
+        'jíst':'eat',
+        'ovoce':'fruit',
+        'jít do postele':'go to bed',
+        'jít spát':'go to bed',
+        'bolest hlavy':'headache',
+        'zdravý':'health',
+        'hodně (lots of)':'lots of',
+        'hlasitý':'loud',
+        'hudba':'music',
+        'venku':'outside',
+        'bolest v krku':'sore throat',
+        'bolest žaludku':'stomach ache',
+        'sladkosti':'sweets',
+        'voda':'water',
+        'co se děje':'what\`s the matter',
+    }
+)
+
+
+lekce = [ lekce_kaja1, lekce_adam1, lekce_adam2, lekce_adam3, lekce_artem1, lekce_adam4s, lekce_adam4f, lekce_adam3s]
 
 
 
