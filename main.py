@@ -334,7 +334,7 @@ lekce_adam3s = Lekce("Skola Lekce 3",
         'bolest žaludku':'stomach ache',
         'sladkosti':'sweets',
         'voda':'water',
-        'co se děje':'what\`s the matter',
+        'co se děje':'what is the matter',
     }
 )
 
