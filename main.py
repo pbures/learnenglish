@@ -446,9 +446,9 @@ lekce_adam10 = Lekce("Adam 10",
         'palma':'palm tree',
         'básen':'poem',
         'hraje':'plaing',
-        'píše':'writing'
-        'pipapo':'pipapo'
-        'pipapoli':'pipapoli'
+        'píše':'writing',
+        'pipapo':'pipapo',
+        'pipapoli':'pipapoli',
         'bibo':'bibo'
 
     }
