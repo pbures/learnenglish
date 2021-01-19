@@ -423,8 +423,34 @@ lekce_adam5s = Lekce("Lekce Adam 4",
     }
 )
 
+lekce_adam10 = Lekce("Adam 10", 
+    {
+        'ahoj':'hello',
+        'knihkupectví':'bookshop',
+        'kavárna':'cafe',
+        'hrad':'castle',
+        'kostel':'church',
+        'kino':'cinema',
+        'mněsto':'city',
+        'elektrické piáno':'electric piano',
+        'babibo[babibo]':'babibo',
+        'obchod s oblecenim':'clothes shop',
+        'milý':'dear',
+        'prominte':'excuse me',
+        'podám':'falling',
+        'fantastic':'fantastický',
+        'živící se rybami[***h eater]':'fish eater',
+        'dovolená':'holiday',
+        'já skáču':'I am jumping',
+        'točit':'spin',
+        'palma':'palm tree',
+        'básen':'poem',
+        'hraje':'plaing',
+        'píše':'writing'
+    }
+)
 
-lekce = [ lekce_kaja1, lekce_adam1, lekce_adam2, lekce_adam3, lekce_artem1, lekce_adam4s, lekce_adam4f, lekce_adam3s, lekce_kaja2, lekce_adam5s ]
+lekce = [ lekce_kaja1, lekce_adam1, lekce_adam2, lekce_adam3, lekce_artem1, lekce_adam4s, lekce_adam4f, lekce_adam3s, lekce_kaja2, lekce_adam5s, lekce_adam10 ]
 
 
 
