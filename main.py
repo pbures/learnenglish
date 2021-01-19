@@ -437,8 +437,8 @@ lekce_adam10 = Lekce("Adam 10",
         'obchod s oblecenim':'clothes shop',
         'milý':'dear',
         'prominte':'excuse me',
-        'podám':'falling',
-        'fantastic':'fantastický',
+        'padá':'falling',
+        'fantastický':'fantastic',
         'živící se rybami[***h eater]':'fish eater',
         'dovolená':'holiday',
         'já skáču':'I am jumping',
@@ -447,6 +447,7 @@ lekce_adam10 = Lekce("Adam 10",
         'básen':'poem',
         'hraje':'plaing',
         'píše':'writing'
+        
     }
 )
 
